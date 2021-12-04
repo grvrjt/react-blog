@@ -1,4 +1,5 @@
 import "./topbar.css";
+import profile from '../../assets/images/child.jpg';
 function Topbar() {
   return (
     <div className="top">
@@ -18,7 +19,7 @@ function Topbar() {
         </ul>
       </div>
       <div className="topRight">
-        <img className="topImg" src="src/topbar/child1.jpeg" alt="" />
+        <img className="topImg" src={profile} alt="" />
         <i className=" topSearchIcon fas fa-search"></i>
       </div>
     </div>
